@@ -1,29 +1,39 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
     padding: 0;
     margin: 0;
-    /* background-color: #1F2937; */
-    background-color: rgb(0, 81, 81);
-    /* switch back later, this is just for editing */
+    text-align: center;
+    font-family: 'Roboto', arial;
 }
 
-
+.container {
+    display: flex;
+    flex-direction: column;
+}
+/* NAV BAR */
 .nav-bar {
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    justify-content: center;
+    padding: 20px 0px 20px 100px;
+    gap: 40px;
+
 }
 
 .logo {
     display: flex;
-    align-items: center;
+    margin-right: auto;
     font-size: 24px;
     color: #f9faf8;
+    align-items: center;
+}
+
+.links-nav {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
 }
 
 .links {
@@ -32,15 +42,69 @@ body {
     font-size: 18px;
 }
 
-.links-nav {
+
+
+/* HERO SECTION */
+.hero-section {
+    background-color: #1F2937;
+    height: 200px;
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
 }
 
-
-@media (max-width: 800px) {
-    .nav-bar {
-        padding-left: 50px;
-        padding-right: 50px;
-    }    
+.hero-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left within the column */
 }
+
+.hero-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #f9faf8;
+    text-align: left;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.sign-up {
+    color: white; 
+    background-color: #3882f6;
+    border: none;
+    width: 125px;
+    padding: 10px 0 10px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.img-box {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 600px;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    flex-shrink: 0;
+}
+
+/* INFO SECTION */
+
+
+
