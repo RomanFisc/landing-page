@@ -147,7 +147,7 @@ body {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 90px 200px 90px;
+    padding: 90px 200px 80px;
 }
 
 .quote {
@@ -163,7 +163,63 @@ body {
 }
 
 /* Sign up section */
+.cta-container {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 50px 200px;
+    padding: 15px 200px;
+    gap: 40px;
+}
 
+.cta-banner {
+   text-align: left;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+}
+
+.button-div {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.cta-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    padding: 6px 15px 6px;
+    font-size: 16px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+
+
+.cta-title {
+    font-size: 20px;
+    color: #f9faf8;
+    margin-bottom: -10px;
+}
+
+.cta-sub {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+
+@media (max-width: 1200px) {
+    .cta-container {
+        margin: 50px 150px;
+    }
+
+    .cta-container {
+        padding: 15px 75px;
+    }
+}
 
 @media (max-width: 800px) {
     .logo {
@@ -216,5 +272,13 @@ body {
 
     .person {
         font-size: 18px
+    }
+
+    .cta-container {
+        margin: 50px 70px;
+    }
+
+    .cta-container {
+        padding: 15px 40px;
     }
 }
