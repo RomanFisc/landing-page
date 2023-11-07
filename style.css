@@ -163,3 +163,58 @@ body {
 }
 
 /* Sign up section */
+
+
+@media (max-width: 800px) {
+    .logo {
+        flex-shrink: 0;
+    }
+
+    .hero-section {
+        padding: 30px;
+    }
+
+    .hero-contain {
+        display: flex;
+    }
+
+    .hero-text {
+        font-size: 24px;
+    }
+
+    .hero-subtext {
+        font-size: 16px;
+   
+    }
+
+    #ding_image {
+        width: 200px;
+        height: auto;
+        flex: 1;
+    }
+
+    .sign-up {
+        font-size: 15px;
+        padding: 4px;
+    }
+
+    .info-tag {
+        font-size: 22px;
+    }
+
+    .img-content {
+        flex-wrap: wrap;
+    }
+
+    .quote-section {
+        padding: 30px 50px 30px;
+    }
+
+    .quote {
+        font-size: 22px;
+    }
+
+    .person {
+        font-size: 18px
+    }
+}
